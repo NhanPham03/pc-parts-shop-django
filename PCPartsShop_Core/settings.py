@@ -101,18 +101,17 @@ WSGI_APPLICATION = 'PCPartsShop_Core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 MONGODB_NAME = os.getenv('MONGODB_NAME')
-MONGODB_HOST = os.getenv('MONGODB_HOST')
+MONGODB_URI = os.getenv('MONGODB_URI')
 MONGODB_USERNAME = os.getenv('MONGODB_USERNAME')
 MONGODB_PASSWORD = os.getenv('MONGODB_PASSWORD')
 
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': MONGODB_NAME,
         'CLIENT': {
-            'host': MONGODB_HOST,
+            'host': f'{MONGODB_URI}/{MONGODB_NAME}',
             'username': MONGODB_USERNAME,
-            'password': MONGODB_PASSWORD
+            'password': MONGODB_PASSWORD,
         }
     }
 }
