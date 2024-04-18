@@ -1,5 +1,9 @@
-# virtual environment
-venv
+# compiled
+__pycache__/
+*.py[cod]
+
+# virtual environment / packages
+venv/
 
 # secrets
 .env
