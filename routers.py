@@ -1,5 +1,5 @@
 from rest_framework import routers
-from apps.accounts.viewsets import AccountViewSets
+
 from apps.users.viewsets import UserViewSets
 from apps.carts.viewsets import CartViewSets
 from apps.items.viewsets import ItemViewSets
@@ -9,7 +9,6 @@ from apps.products.viewsets import ProductViewSets
 
 router = routers.SimpleRouter()
 
-router.register(r'accounts', AccountViewSets, basename='accounts')
 router.register(r'users', UserViewSets, basename='users')
 router.register(r'carts', CartViewSets, basename='carts')
 router.register(r'items', ItemViewSets, basename='items')

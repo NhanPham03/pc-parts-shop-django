@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+from datetime import timedelta
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -51,14 +52,14 @@ INSTALLED_APPS = [
     'corsheaders',
 
     # Required apps
-    'apps.accounts',
     'apps.users',
     'apps.carts',
     'apps.items',
     'apps.cart_item',
     'apps.product_types',
     'apps.products',
-    'apps.receipts'
+    'apps.receipts',
+    'apps.login'
 ]
 
 MIDDLEWARE = [
@@ -112,10 +113,23 @@ DATABASES = {
             'host': f'{MONGODB_URI}/{MONGODB_NAME}',
             'username': MONGODB_USERNAME,
             'password': MONGODB_PASSWORD,
-        }
-    }
+        },
+    },
 }
 
+# JWT authentication settings
+AUTH_USER_MODEL = 'users.User'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=15),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
