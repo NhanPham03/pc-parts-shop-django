@@ -11,12 +11,8 @@ class LoginSerializer(serializers.Serializer):
     password = attrs.get('password')
 
     user = authenticate(request=self.context.get('request'), username=username, password=password)
+
     if not user:
       raise serializers.ValidationError("Invalid username or password")
     
-    refresh = RefreshToken.for_user(user)
-    return {
-      'refresh': str(refresh),
-      'access': str(refresh.access_token),
-      'user': user
-    }
+    return user
