@@ -109,8 +109,9 @@ MONGODB_PASSWORD = os.getenv('MONGODB_PASSWORD')
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
+        'NAME': MONGODB_NAME,
         'CLIENT': {
-            'host': f'{MONGODB_URI}/{MONGODB_NAME}',
+            'host': MONGODB_URI,
             'username': MONGODB_USERNAME,
             'password': MONGODB_PASSWORD,
         },
