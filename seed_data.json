@@ -1,0 +1,702 @@
+[
+  {
+    "model": "products.product", 
+    "pk": 1, 
+    "fields": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra tempor lectus, at tempus arcu feugiat ac. Ut elementum magna vel est faucibus, quis placerat nulla luctus. Quisque porta ante.", 
+      "name": "MSI GeForce GT 1030 AERO ITX 2GD4 OC", 
+      "price": 94.75, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 2, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "ASUS TUF Gaming GeForce GTX 1650 V2 OC Edition 4GB GDDR6", 
+      "price": 160.95, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 3, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "GIGABYTE GeForce GTX 1660 Super OC 6G", 
+      "price": 214.75, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 4, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "MSI GeForce RTX 3050 VENTUS 2X XS 8G OC", 
+      "price": 249.95, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 5, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "ASUS TUF Gaming GeForce RTX 3060 V2 12GB GDDR6", 
+      "price": 371.95, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 6, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "MSI GeForce RTX 4060 GAMING X 8G MLG", 
+      "price": 454.70, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 7, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "GIGABYTE GeForce RTX 4060 Ti GAMING OC 16G", 
+      "price": 620, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 8, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X OC EVA-02 Edition", 
+      "price": 2564.75, 
+      "type": "GPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 9, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "AMD Ryzen 3 4300G / 3.8GHz Boost 4.0GHz / 4 Cores 8 Threads / 6MB / AM4", 
+      "price": 98.88, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 10, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Intel Core i3 13100F / 3.4GHz Turbo 4.5GHz / 4 Cores 8 Threads / 12MB / LGA 1700", 
+      "price": 127.85, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 11, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "AMD Ryzen 5 5600X / 3.7GHz Boost 4.6GHz / 6 Cores 12 Threads / 32MB / AM4", 
+      "price": 189.90, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 12, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "Intel Core i5 13400F / 2.5GHz Turbo 4.6GHz / 10 Cores 16 Threads / 20MB / LGA 1700", 
+      "price": 223, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 13, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "AMD Ryzen 7 5800X / 3.8GHz Boost 4.7GHz / 8 Cores 16 Threads / 32MB / AM4", 
+      "price": 280.95, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 14, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Intel Xeon E2236 12M 3.4GHz", 
+      "price": 318.50, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 15, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Intel Core i7 12700F / 2.1GHz Turbo 4.9GHz / 12 Cores 20 Threads / 25MB / LGA 1700", 
+      "price": 326.45, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 16, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "AMD Ryzen 9 5900X / 3.7GHz Boost 4.8GHz / 12 Cores 24 Threads / 64MB / AM4", 
+      "price": 355.40, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 17, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Intel Core i9 13900KF / 3.0GHz Turbo 5.8GHz / 24 Cores 32 Threads / 36MB / LGA 1700", 
+      "price": 632.60, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 18, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "AMD Ryzen Threadripper Pro 3955WX / 3.9GHz Boost 4.3GHz / 16 Cores 32 Threads / 64MB / sWRX8", 
+      "price": 1236.66, 
+      "type": "CPU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 19, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "G.SKILL Ripjaws V 1x8GB 2800 DDR4", 
+      "price": 32.69, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 20, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Kingston Fury Beast 8GB 3200 DDR4 RGB", 
+      "price": 35.30, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 21, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "PNY XLR8 Silver 1x8GB 3600 RGB", 
+      "price": 36.80, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 22, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "T-Group T-Force Delta 1x16GB 3200 RGB Black", 
+      "price": 61.65, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 23, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "Corsair Dominator Platinum 16GB (2x8GB) RGB 3200 White", 
+      "price": 98.88, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 24, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Corsair Vengeance RGB 32GB (2x16GB) 5600 DDR5", 
+      "price": 140, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 25, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Corsair Dominator Platinum White 64GB (2x32GB) RGB 5600 DDR5", 
+      "price": 309.95, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 26, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) 5600 DDR5 Black CL30", 
+      "price": 495.99, 
+      "type": "RAM"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 27, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "ASUS Prime H510M-E", 
+      "price": 75, 
+      "type": "Motherboard"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 28, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "MSI PRO H610M-G WIFI DDR4", 
+      "price": 115.49, 
+      "type": "Motherboard"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 29, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "ASUS TUF Gaming X570-Plus Wifi", 
+      "price": 231.30, 
+      "type": "Motherboard"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 30, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "GIGABYTE B550 AORUS MASTER", 
+      "price": 324.85, 
+      "type": "Motherboard"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 31, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "MSI MPG Z690 FORCE WIFI DDR5", 
+      "price": 413.39, 
+      "type": "Motherboard"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 32, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "GIGABYTE X670E AORUS XTREME", 
+      "price": 744.49, 
+      "type": "Motherboard"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 33, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "PNY CS900 250GB SATA3", 
+      "price": 24.45, 
+      "type": "Storage"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 34, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Samsung 980 500GB M.2 PCIe NVMe", 
+      "price": 57.49, 
+      "type": "Storage"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 35, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "WD Black SN770 1TB M.2 NVMe PCIe Gen4", 
+      "price": 102.89, 
+      "type": "Storage"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 36, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "Seagate Barracuda 1TB", 
+      "price": 53.99, 
+      "type": "Storage"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 37, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Seagate Barracuda 2TB", 
+      "price": 69.85, 
+      "type": "Storage"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 38, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Seagate Barracuda 4TB", 
+      "price": 103.49, 
+      "type": "Storage"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 39, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Xigmatek LUX A SHADOW", 
+      "price": 35, 
+      "type": "Case"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 40, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "Xigmatek LUX S 3FX Black (3 Fan RGB)", 
+      "price": 40.90, 
+      "type": "Case"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 41, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Phanteks Eclipse P360X Tempered Glass, Digital RGB Lighting", 
+      "price": 78, 
+      "type": "Case"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 42, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "NZXT H5 Flow White", 
+      "price": 82.25, 
+      "type": "Case"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 43, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Lian Li PC-O11 Dynamic Mini Snow White", 
+      "price": 115.29, 
+      "type": "Case"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 44, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "Xigmatek X-POWER III 350 (350W)", 
+      "price": 18.49, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 45, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "GIGABYTE P450B - 80 Plus Bronze (450W)", 
+      "price": 36.75, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 46, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "SilverStone 500W ST50F-ES230 - 80 Plus (500W)", 
+      "price": 40.99, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 47, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "SilverStone 650W ST65F-ES230 - 80 Plus (650W)", 
+      "price": 49.25, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 48, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "NZXT C750W - 80 Plus Bronze - Semi Modular (750W)", 
+      "price": 73.95, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 49, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Corsair RM750 White - 80 Plus Gold - Full Modular (750W)", 
+      "price": 119.49, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 50, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "NZXT C1000W - 80 Plus Gold - Full Modular (1000W)", 
+      "price": 185.50, 
+      "type": "PSU"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 51, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "LG 27MP400-B 27-inch IPS 75Hz FreeSync", 
+      "price": 123.50, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 52, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Lenovo G27C-30 27-inch 165Hz for Gaming", 
+      "price": 152.45, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 53, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Dell UltraSharp U2722D 27-inch IPS 2K for Graphics Design", 
+      "price": 412.75, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 54, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "ViewSonic VX2882-4KP 28-inch IPS 4K 150Hz HDR10 USBC", 
+      "price": 701.99, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 55, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Dell Alienware AW3423DW 34-inch QD-OLED 2K 175Hz G-Sync Ultimate", 
+      "price": 1404.25, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 56, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "AKKO MonsGeek MG108 Prunus Lannesiana Akko CS Wine Red switch", 
+      "price": 44.99, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 57, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "AKKO 5108S Black Pink Jelly Black", 
+      "price": 61.50, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 58, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "IKBC CD108HR", 
+      "price": 80.50, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 59, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Leopold FC750RPD White Dark Grey Red Switch", 
+      "price": 130, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 60, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Leopold FC900R Bluetooth Blue Star Silent Red Switch", 
+      "price": 138.45, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 61, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Rapoo M22 Silent", 
+      "price": 7.85, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 62, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "DareU EM911 Black", 
+      "price": 13.59, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 63, 
+    "fields": {
+      "description": "Suspendisse euismod semper tincidunt. Quisque vitae aliquet nulla. Suspendisse porttitor fermentum dolor a malesuada. In sed lectus enim. Pellentesque habitant morbi tristique senectus et netus et in.", 
+      "name": "HyperX Pulsefire FPS Pro RGB", 
+      "price": 32.65, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 64, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Logitech G403 HERO", 
+      "price": 40.90, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 65, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Razer Viper 8KHz Gaming Mouse", 
+      "price": 78, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 66, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "HyperX Cloud Stinger Core II", 
+      "price": 36.75, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 67, 
+    "fields": {
+      "description": "Praesent nunc erat, interdum at laoreet id, vestibulum ut arcu. Cras blandit, odio id elementum tristique, velit arcu ultricies enim, quis semper dui risus non purus. Maecenas sit amet scelerisque eu.", 
+      "name": "Razer BlackShark V2 X", 
+      "price": 53.25, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 68, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "E-Dra EH494W White", 
+      "price": 56.95, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 69, 
+    "fields": {
+      "description": "Fusce suscipit, turpis id iaculis finibus, mauris ante lacinia velit, nec pellentesque ex arcu id diam. Maecenas et tincidunt ligula, sed cursus ligula. Praesent bibendum aliquet velit, nec efficitur.", 
+      "name": "Steelseries Arctis Prime", 
+      "price": 119.49, 
+      "type": "Other"
+    }
+  },
+  {
+    "model": "products.product", 
+    "pk": 70, 
+    "fields": {
+      "description": "Nunc velit tellus, aliquam eget sapien eu, rutrum vestibulum urna. Aliquam erat volutpat. Morbi venenatis euismod quam vel vulputate. Curabitur nec ex et sapien efficitur sodales sit amet at volutpat.", 
+      "name": "Corsair HS80 RGB Wireless", 
+      "price": 156.50, 
+      "type": "Other"
+    }
+  }
+]
