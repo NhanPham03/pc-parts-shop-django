@@ -56,7 +56,6 @@ INSTALLED_APPS = [
     'apps.carts',
     'apps.items',
     'apps.cart_item',
-    'apps.product_types',
     'apps.products',
     'apps.receipts',
     'apps.login'
@@ -134,8 +133,8 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=15),
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+    'ACCESS_TOKEN_LIFETIME': timedelta(hours=24),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=30),
 }
 
 # Password validation

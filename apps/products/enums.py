@@ -1,6 +1,6 @@
 from enum import Enum
 
-class ProductType(Enum):
+class ProductTypes(Enum):
   CPU = 'CPU'
   GPU = 'GPU'
   RAM = 'RAM'
@@ -10,3 +10,6 @@ class ProductType(Enum):
   Case = 'Case'
   Other = 'Other'
   
+  @classmethod
+  def choices(cls):
+    return [(key.value, key.name) for key in cls]
