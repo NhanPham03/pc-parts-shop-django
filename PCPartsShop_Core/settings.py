@@ -11,12 +11,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from datetime import timedelta
-import os
 from pathlib import Path
-from dotenv import load_dotenv
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -24,17 +22,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-ENV = os.getenv('ENV', 'development')
+ENV = config('ENV', default='development')
 
-if ENV == 'production':
-    DEBUG = False
-else:
-    DEBUG = True
+DEBUG = ENV == 'development'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -100,10 +95,10 @@ WSGI_APPLICATION = 'PCPartsShop_Core.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-MONGODB_NAME = os.getenv('MONGODB_NAME')
-MONGODB_URI = os.getenv('MONGODB_URI')
-MONGODB_USERNAME = os.getenv('MONGODB_USERNAME')
-MONGODB_PASSWORD = os.getenv('MONGODB_PASSWORD')
+MONGODB_NAME = config('MONGODB_NAME')
+MONGODB_URI = config('MONGODB_URI')
+MONGODB_USERNAME = config('MONGODB_USERNAME')
+MONGODB_PASSWORD = config('MONGODB_PASSWORD')
 
 DATABASES = {
     'default': {
