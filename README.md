@@ -1,4 +1,4 @@
-# PC Parts Shop (Next)
+# PC Parts Shop (Django)
 
 This is a Python [Django](https://www.djangoproject.com/) back-end API and data processing hub for the website [pc-parts-shop-next](https://github.com/NhanPham03/pc-parts-shop-next).  
 
