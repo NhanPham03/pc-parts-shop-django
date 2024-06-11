@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     # Required apps
     'apps.users',
     'apps.carts',
-    'apps.items',
     'apps.cart_item',
     'apps.products',
     'apps.receipts',
