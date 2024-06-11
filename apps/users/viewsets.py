@@ -1,6 +1,7 @@
 from rest_framework import viewsets, status
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
+
 from apps.users.models import User
 from apps.users.serializers import UserSerializer
 
@@ -19,7 +20,7 @@ class UserViewSets(viewsets.ModelViewSet):
       if password:
         user.set_password(password)
         user.save()
-      return Response(status=status.HTTP_201_CREATED)
+      return Response({'message': 'User successfully created!'}, status=status.HTTP_201_CREATED)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
   def update(self, request, *args, **kwargs):
@@ -35,5 +36,5 @@ class UserViewSets(viewsets.ModelViewSet):
         original_user = User.objects.get(pk=user.pk)
         user.set_password(original_user.password)
         user.save()
-      return Response(status=status.HTTP_200_OK)
+      return Response({'message': 'User successfully updated!'}, status=status.HTTP_200_OK)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
