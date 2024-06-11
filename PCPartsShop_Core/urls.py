@@ -19,11 +19,14 @@ from django.urls import path, include
 from routers import router
 
 from apps.login.views import LoginView
+from apps.users.views import UserListCreate, UserRetrieveUpdateDestroy
 from apps.products.views import SearchProducts
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include((router.urls, 'core_api'), namespace='core_api')),
+    path('api/users/', UserListCreate.as_view(), name='users-list'),
+    path('api/users/<int:pk>/', UserRetrieveUpdateDestroy.as_view(), name='users-details'),
+    path('api/products/search/<str:q>/', SearchProducts, name='products-search'),
     path('api/login/', LoginView.as_view(), name='login'),
-    path('api/products/search/<str:q>/', SearchProducts, name='products_search'),
 ]
