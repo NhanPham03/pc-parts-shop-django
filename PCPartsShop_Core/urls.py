@@ -20,13 +20,13 @@ from routers import router
 
 from apps.login.views import LoginView
 from apps.users.views import UserListCreate, UserRetrieveUpdateDestroy
-from apps.products.views import SearchProducts
+from apps.products.views import ProductSearch
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include((router.urls, 'core_api'), namespace='core_api')),
-    path('api/users/', UserListCreate.as_view(), name='users-list'),
-    path('api/users/<int:pk>/', UserRetrieveUpdateDestroy.as_view(), name='users-details'),
-    path('api/products/search/<str:q>/', SearchProducts, name='products-search'),
+    path('api/users/', UserListCreate.as_view(), name='user-list'),
+    path('api/users/<int:pk>/', UserRetrieveUpdateDestroy.as_view(), name='user-details'),
+    path('api/products/search/<str:q>/', ProductSearch, name='product-search'),
     path('api/login/', LoginView.as_view(), name='login'),
 ]

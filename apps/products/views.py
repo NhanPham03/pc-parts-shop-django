@@ -21,7 +21,7 @@ collection.create_index([
 ])
 
 @api_view(['GET'])
-def SearchProducts(request, q):
+def ProductSearch(request, q):
   if request.method == 'GET':
     try:
       results = collection.find({'$text': {'$search': q}})
