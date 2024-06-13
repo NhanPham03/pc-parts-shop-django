@@ -13,7 +13,7 @@ class LoginView(APIView):
       user = serializer.validated_data
       refresh = RefreshToken.for_user(user)
       return Response({
-        'refresh': str(refresh),
         'access': str(refresh.access_token),
+        'refresh': str(refresh),
       })
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
