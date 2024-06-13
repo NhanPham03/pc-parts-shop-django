@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class CartItemConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.cart_item'
+    name = 'apps.cart_items'

@@ -3,7 +3,7 @@ from rest_framework.permissions import AllowAny
 from apps.carts.models import Cart
 from apps.carts.serializers import CartSerializer
 
-class CartViewSets(viewsets.ModelViewSet):
+class CartViewSet(viewsets.ModelViewSet):
   queryset = Cart.objects.all()
   serializer_class = CartSerializer
   permission_classes = [AllowAny]

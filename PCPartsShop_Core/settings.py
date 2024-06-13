@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     # Required apps
     'apps.users',
     'apps.carts',
-    'apps.cart_item',
+    'apps.cart_items',
     'apps.products',
     'apps.receipts',
     'apps.login'
